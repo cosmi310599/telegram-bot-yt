@@ -1,0 +1,8 @@
+= Telegram Bot for Video Downloads
+
+== Introduction
+
+This Telegram bot is designed to help users download YT videos by providing a URL. The bot is built using Python and relies on the Telegram Bot API to interact with users.
+
+Note that this project is still under construction and is subject to changes.
+
