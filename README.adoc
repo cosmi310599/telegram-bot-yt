@@ -6,3 +6,4 @@ This Telegram bot is designed to help users download YT videos by providing a UR
 
 Note that this project is still under construction and is subject to changes.
 
+WARNING: As soon as possible I will continue with the development of this bot, until that I apologize sincerelly for this repository mess 😅
