@@ -1,4 +1,21 @@
+import queue
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
+
+class DownloadQueue:
+    def __init__(self):
+        self.q = queue.Queue()
+
+    def add(self, item):
+        self.q.put(item)
+
+    def get(self):
+        return self.q.get()
+
+    def is_empty(self):
+        return self.q.empty()
+
+    def size(self):
+        return self.q.qsize()
 
 class Menu:
     @staticmethod
